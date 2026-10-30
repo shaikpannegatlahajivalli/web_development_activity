@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+header {
+    background-color: skyblue;
+    padding: 15px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+footer {
+    background-color: skyblue;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+}

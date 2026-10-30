@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>web pape</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="qwer.css">
+    </head>
+    <boby>
+        <nav>
+            <h2>🎓 NRI COLLEGE</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#class">Class</a></li>
+                <li><a href="#booking">Booking</a></li>
+            </ul>
+        </nav>
+        <header>
+            <p>Wel come to NRI UNIVESITY</p>
+            <h1>Book Your Perfect<br>Class!</h1>
+            <p>Smart Classrooms,EasyBooking,Better Learning</p>
+            <a href="# Booking" class="">Booking Class</a>
+        </header>
+        <section>
+            <h2>Explore Our CLassrooms</h2>
+            <p>Chose The Perfect Class For Your Learning</p>
+            <h3>Computer Lab</h3>
+            <p>Modern computers for programming and practical sessions</p>
+            <p>Room 101 | 40 Seats</p>
+            <a href="#booking" class="">Book Now</a>
+            <h3>Smart Classroom</h3>
+            <p>Digital learning facilities for interactive classes.</p>
+            <p>Room 102 | 60 Seats</p>
+             <a href="# Booking" class="">Booking Class</a>
+            <h3>Science Lab</h3>
+            <p>Science Lab</p>
+            <p>practical learning space for experiments and projects</p>
+            <p>Room 103 | 30 Seats</p>
+            <a href="# Booking" class="">Booking Class</a>
+            <h2>Book Your Classroom</h2>
+            <p class="subtitle">Fill in the details to request a booking.</p>
+               <form>
+            <label>Student Name</label>
+            <input type="text" placeholder="Enter your full name" required>
+
+            <label>Choose Classroom</label>
+            <select required>
+                <option value="">Select a classroom</option>
+                <option>Computer Lab - Room 101</option>
+                <option>Smart Classroom - Room 102</option>
+                <option>Science Lab - Room 103</option>
+            </select>
+
+            <label>Booking Date</label>
+            <input type="date" required>
+
+            <label>Purpose of Booking</label>
+            <input type="text" placeholder="Example: Project work">
+
+            <button type="submit">Submit Booking ✨</button>
+        </form>
+        </section>
+    </boby>
+</html>
